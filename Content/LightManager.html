@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Light Manager</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="../index.html" class="title">Technical Art</a>
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../3D.html" >3D/Design</a></li>
+						<li><a href="../Programming.html" class="active">Programming</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Light Manager</h1>
+							<span class="image fit"><video width= 100% height= auto controls autoplay muted loop>
+  							<source src="images/TechnicalArt/LightManager/Showcase.mp4" type="video/mp4"></span>
+
+							<div class="row">
+								<div class="col-6 col-12">
+										<h3>Info</h3>
+									<ul>
+										<li>The light manager lets you save setups of lights so you can easily import them again in any project. </li>
+										<li>By default saves a Json with the info of the Lights(type, position, rotation, color, intensity)by creating a folder in your Maya/. Overwrites data when using the same name for an existing saved setup. </li>
+									</ul>
+													
+								</div>
+							</div>
+
+
+								<div class="box alt">
+								<div class="row gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/TechnicalArt/LightManager/Window.png" alt="" /></span></div>
+								</div>
+							</div>
+								<h3>The code</h3>
+									<blockquote>
+										Uses Pymel to get the lights type and open Maya UI to make a dockable Window. Writes all the information about the lights in a Json file and read the file on import. The UI is made using PythonQt.
+									</blockquote>
+									You can find the source code on my GitHub
+									<a href="https://github.com/Louratix/Maya-Tools-Scripts/blob/main/Light%20Manager/LightingManager.py">
+										<img
+											src="images/github.png"
+											alt="imagehere"
+											style="width:100px;height:100px;"
+											loading="lazy"
+											class="project-pic"
+										/></a>
+								</p>
+
+							
+
+							
+							
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="../Programming.html">Go back?</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
